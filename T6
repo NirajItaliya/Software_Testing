@@ -1,0 +1,25 @@
+digraph "Automata" {
+"0" [shape=doubleoctagon, style=filled, fillcolor=white, URL="0"];
+"1" [shape=ellipse, style=filled, fillcolor=white, URL="1"];
+"0" -> "0" [fontsize=5, label="Login / ERROR", URL="t0"];
+"0" -> "1" [fontsize=5, label="SignUp / DashBord", URL="t1"];
+"0" -> "0" [fontsize=5, label="Loginfailed / Login", URL="t2"];
+"0" -> "0" [fontsize=5, label="addTask / ERROR", URL="t3"];
+"0" -> "0" [fontsize=5, label="removeTask / ERROR", URL="t4"];
+"1" -> "1" [fontsize=5, label="Login / DashBord", URL="t5"];
+"1" -> "1" [fontsize=5, label="SignUp / DashBord", URL="t6"];
+"1" -> "1" [fontsize=5, label="Loginfailed / Login", URL="t7"];
+"1" -> "1" [fontsize=5, label="addTask / AddTask", URL="t8"];
+"1" -> "1" [fontsize=5, label="removeTask / ERROR", URL="t9"];
+}
+
+
+==> QUIC machine Automata dumped in T6
+
+Knowledge base stats: 
+	- nb query= 60
+	- nb submited query= 55
+	- nb letter= 140
+	- nb submited letter= 130
+
+==> Taken Time:0.02232217788696289

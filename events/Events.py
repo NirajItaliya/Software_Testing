@@ -12,3 +12,9 @@ class addTask:
 
 class RemoveTask:
     pass
+
+class RunTask:
+    pass
+
+class StopTask:
+    pass

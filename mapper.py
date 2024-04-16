@@ -16,6 +16,10 @@ def QuicInputMapper(alphabet, s):
             x = s.send(addTask())
         case "removeTask":
             x = s.send(RemoveTask())
+        case "RunTask":
+            x = s.send(RunTask())
+        case "StopeTask":
+            x = s.send(StopTask())
         case default:
             pass
     return x
@@ -33,6 +37,10 @@ def QuicOutputMapper(data):
         output = "AddTask"
     elif data == b"removetask":
         output = "RemoveTask"
+    elif data == b"runtsak":
+        output = "RunTsak"
+    elif data == b"Stoptask":
+        output = "StopTask"
     else:
         output = "ERROR"
     return output

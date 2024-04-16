@@ -25,12 +25,8 @@ def main():
         exit(0)
     if sys.argv[1] == "localhost":
         server = 1
-    # elif sys.argv[1] == "www.litespeedtech.com":
     else:
         server = 0
-        # print("Enter correct Active Server!!!\nExample: localhost or www.litespeedtech.com")
-        # exit(0)
-
     filename = sys.argv[2]
     if os.path.exists(filename):
         print("Enter different dotfile name. "+ filename+" aleady exist!!!")
@@ -39,22 +35,12 @@ def main():
 
     input_vocabulary = [
         "Login",
-        # "FullCHLO",
         "SignUp",
         "Loginfailed",
         "addTask",
-        "removeTask"
-        # "GET",
-        # "ZeroRTT",
-        # "Emp
-        # tyCertHashZeroRTT",
-        # "EmptyCertHashFullCHLO",
-        # "CLOSE",
-        # "InvalidInitialCHLO",
-        # "InvalidFullCHLO",
-        # "InvalidGET",
-        # "InvalidZeroRTT",
-        # "InvalidCLOSE",
+        "removeTask",
+        # "RunTask",
+        # "StopeTask"
     ]
 
 
