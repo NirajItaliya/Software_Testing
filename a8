@@ -1,0 +1,21 @@
+digraph "Automata" {
+"0" [shape=doubleoctagon, style=filled, fillcolor=white, URL="0"];
+"1" [shape=ellipse, style=filled, fillcolor=white, URL="1"];
+"0" -> "0" [fontsize=5, label="Login / ERROR", URL="t0"];
+"0" -> "1" [fontsize=5, label="SignUp / DashBord", URL="t1"];
+"0" -> "0" [fontsize=5, label="Loginfailed / Login", URL="t2"];
+"1" -> "1" [fontsize=5, label="Login / DashBord", URL="t3"];
+"1" -> "1" [fontsize=5, label="SignUp / DashBord", URL="t4"];
+"1" -> "1" [fontsize=5, label="Loginfailed / Login", URL="t5"];
+}
+
+
+==> QUIC machine Automata dumped in a8
+
+Knowledge base stats: 
+	- nb query= 24
+	- nb submited query= 21
+	- nb letter= 54
+	- nb submited letter= 48
+
+==> Taken Time:0.0094757080078125

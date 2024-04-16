@@ -1,0 +1,16 @@
+digraph "Automata" {
+"0" [shape=doubleoctagon, style=filled, fillcolor=white, URL="0"];
+"0" -> "0" [fontsize=5, label="Login / DashBord", URL="t0"];
+"0" -> "0" [fontsize=5, label="SignUp / DashBord", URL="t1"];
+}
+
+
+==> QUIC machine Automata dumped in a12
+
+Knowledge base stats: 
+	- nb query= 6
+	- nb submited query= 6
+	- nb letter= 10
+	- nb submited letter= 10
+
+==> Taken Time:0.01109933853149414
